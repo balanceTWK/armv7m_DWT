@@ -9,7 +9,7 @@ MSH_CMD_EXPORT(dwt_show_info, Shows DWT usage information.);
 MSH_CMD_EXPORT(dwt_init, Initialize DWT peripherals.);
 MSH_CMD_EXPORT(dwt_deinit, Restore DWT peripherals.);
 
-#ifdef PKG_USING_ARMV7M_DWT_DEMO
+#ifdef PKG_USING_ARMV7M_DWT_TOOL_DEMO
 
 #define CALL_STACK_MAX_DEPTH 64
 #define GET_THREAD_STACK_START         (uint32_t)(rt_thread_self()->stack_addr)

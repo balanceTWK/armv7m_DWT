@@ -13,6 +13,6 @@ src  += ['port/dwt_rtt_port.c']
 path += [cwd + '/port']
 
 
-group = DefineGroup('arm_dwt', src, depend = ['PKG_USING_ARMV7M_DWT'], CPPPATH = path)
+group = DefineGroup('arm_dwt', src, depend = ['PKG_USING_ARMV7M_DWT_TOOL'], CPPPATH = path)
 
 Return('group')
